@@ -3,7 +3,7 @@ import React from 'react'
 const Book = ({img,title,author}) => {
   //const {img,title,author}=props;
     const clickhandler=()=>{
-        alert('bought')
+        alert('done')
     }
 return(
     <artcile className="book" onMouseOver={()=>{ console.log(title)}}>
@@ -12,6 +12,7 @@ return(
         <h1 style={{margin: "2rem"}}> {title}</h1>  
         <h3 onClick={()=>{ console.log('alert');}}>{author}</h3>
         <button type='button' onClick={clickhandler} style={{margin: "2rem "}}>buy </button>
+        <button type='button' onClick={clickhandler} style={{margin: "2rem "}}>add </button>
         </artcile> 
 )
 }
