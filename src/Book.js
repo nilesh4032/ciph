@@ -7,6 +7,7 @@ const Book = ({img,title,author}) => {
     }
 return(
     <artcile className="book" onMouseOver={()=>{ console.log(title)}}>
+         <img src={img} alt=" "/>
          <h1 style={{margin: "2rem"}}> {img} </h1>
         <h1 style={{margin: "2rem"}}> {title}</h1>  
         <h3 onClick={()=>{ console.log('alert');}}>{author}</h3>

@@ -26,11 +26,11 @@ body {
 
 .book {
     background: white;
+    
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
     margin:2rem;
-    
     padding: 1rem 2rem;
 
 
