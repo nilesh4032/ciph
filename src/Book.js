@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Book = ({pic,img,title,author}) => {
-  //const {img,title,author}=props;
+const Book = ({...props}) => {
+  const {pic,img,title,author}=props;
     const clickhandler=()=>{
         alert('done')
     }
